@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+h4 {
+  height: 25px;
+  margin-top: 40px;
+  margin-left: 77px;
+  font-family: "Inconsolata", monospace;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 25px;
+  letter-spacing: -0.08em;
+  color: #333;
+}
+
+main {
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+main img {
+  max-width: 558px;
+  height: 100%;
+}
+
+.info {
+  max-width: 586px;
+  min-height: 466px;
+  margin: 0 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: "Space Mono", monospace;
+}
+
+.info h1 {
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 95px;
+  letter-spacing: -0.035em;
+  color: #333;
+}
+
+.info p {
+  max-width: 381px;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: -0.035em;
+  color: #4f4f4f;
+}
+
+.info button {
+  width: 216px;
+  height: 68px;
+  background-color: #333;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: -0.035em;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+footer {
+  width: 100%;
+}
+
+footer h3 {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #bdbdbd;
+}
+
+@media screen and (max-width: 1200px) {
+  h4 {
+    margin-top: 20px;
+    margin-left: 24px;
+  }
+
+  main img {
+    width: calc(100% - 88px);
+    max-width: 480px;
+  }
+
+  .info {
+    max-width: 350px;
+    min-height: 400px;
+  }
+
+  .info h1 {
+    font-size: 48px;
+    line-height: 71px;
+  }
+
+  .info p {
+    max-width: 328px;
+    font-size: 18px;
+    line-height: 27px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  main {
+    margin-top: 64px;
+    align-content: center;
+  }
+
+  main img {
+    max-width: 370px;
+  }
+}
+@media screen and (max-width: 768px) {
+  main {
+    flex-direction: column;
+  }
+
+  main img {
+    margin: auto;
+    min-width: 286px;
+  }
+}
