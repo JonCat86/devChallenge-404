@@ -12,7 +12,7 @@
       Demo
     </a>
     <span> | </span>
-    <a href="https://github.com/JonCat86/devchallenges/tree/main/404-not-found#404-not-found">
+    <a href="https://github.com/JonCat86/devChallenge-404">
       Solution
     </a>
     <span> | </span>
